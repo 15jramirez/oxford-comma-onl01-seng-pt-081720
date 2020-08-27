@@ -4,7 +4,7 @@ if array.length == 1
   elsif array.length == 2
      array.join(" and ")
  else
-   last_index << array.last
+   last_index = array.last
    array.pop
    array.join (", ")
    array << last_index
