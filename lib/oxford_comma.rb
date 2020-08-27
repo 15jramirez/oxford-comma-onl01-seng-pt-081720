@@ -6,7 +6,7 @@ if array.length == 1
  else
    last_index = array.last
    array.pop
-    array<< " and #{last_index}"
+    array<< "and #{last_index}"
      array.join (", ")
   
  end
