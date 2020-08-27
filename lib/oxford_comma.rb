@@ -7,6 +7,6 @@ if array.length == 1
    last_index = array.last
    array.pop
    array.join (", ")
-   array << last_index
+   array << "and #{last_index}"
  end
 end
